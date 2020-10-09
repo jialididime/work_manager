@@ -12,12 +12,12 @@ boss::boss(int id, string name, int deptid) //:pid(id), pname(name), pdeptid(dep
 }
 void boss::showInfo() {
 
-	cout << "职工编号: " << this->pid << endl;
-	cout << "职工姓名: " << this->pname << endl;
-	cout << "岗位: " << this->getDeptName() << endl;
+	cout << "鑱屽伐缂栧彿: " << this->pid << endl;
+	cout << "鑱屽伐濮撳悕: " << this->pname << endl;
+	cout << "宀椾綅: " << this->getDeptName() << endl;
 	cout << endl;
 }
 string boss::getDeptName() {
 
-	return string("老板");
+	return string("鑰佹澘");
 }

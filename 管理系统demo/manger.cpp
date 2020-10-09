@@ -12,12 +12,12 @@ manger::manger(int id, string name, int deptid) //:pid(id), pname(name), pdeptid
 }
 void manger::showInfo() {
 
-	cout << "Ö°¹¤±àºÅ: " << this->pid << endl;
-	cout << "Ö°¹¤ÐÕÃû£º" << this->pname << endl;
-	cout << "¸ÚÎ»: " << this->getDeptName() << endl;
+	cout << "èŒå·¥ç¼–å·: " << this->pid << endl;
+	cout << "èŒå·¥å§“åï¼š" << this->pname << endl;
+	cout << "å²—ä½: " << this->getDeptName() << endl;
 	cout << endl;
 }
 string manger::getDeptName() {
 
-	return string("¾­Àí");
+	return string("ç»ç†");
 }

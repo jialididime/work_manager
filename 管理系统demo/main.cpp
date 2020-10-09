@@ -10,11 +10,11 @@ using namespace std;
 void test()
 {
 	Work *p[10];
-	p[0] = new employee(1, "°¢Èý", 001);
+	p[0] = new employee(1, "é˜¿ä¸‰", 001);
 	//p[0]->showInfo();
 	//cout<<p[0]->getDeptName()<<endl;
-	p[1] = new manger(2, "ÕÅÖ÷ÈÎ", 002);
-	p[2] = new boss(0, "Mrs.Íõ", 000);
+	p[1] = new manger(2, "å¼ ä¸»ä»»", 002);
+	p[2] = new boss(0, "Mrs.çŽ‹", 000);
 	for (int i = 0; i < 3; i++)
 	{
 		p[i]->showInfo();
@@ -35,7 +35,7 @@ int main()
 	{
 		wm.showMenu();
 		//	Work *w = new employee(10, "zs", 100);
-		cout << "ÇëÊäÈëÄãµÄÑ¡Ôñ:" << endl;
+		cout << "è¯·è¾“å…¥ä½ çš„é€‰æ‹©:" << endl;
 		cin >> a;
 		switch (a)
 		{
@@ -58,7 +58,7 @@ int main()
 		case 7:wm.clearTable();
 			break; 
 		default:
-			cout << "ÊäÈë´íÎó£¬ÇëÔÙ´Î³¢ÊÔ" << endl;
+			cout << "è¾“å…¥é”™è¯¯ï¼Œè¯·å†æ¬¡å°è¯•" << endl;
 			break;
 		}
 
